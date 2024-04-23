@@ -1,0 +1,85 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    /* Colore di sfondo iniziale */
+}
+
+.event-container {
+    position: relative;
+    width: 60%;
+    /* Larghezza del rettangolo esterno */
+    height: 40%;
+    /* Altezza del rettangolo esterno */
+    border: 3px solid #fff;
+    /* Bordo esterno bianco */
+}
+
+.inner-rectangle {
+    width: 100%;
+    /* Larghezza uguale al rettangolo esterno */
+    height: 100%;
+    /* Altezza uguale al rettangolo esterno */
+    background: url('./IMG/FUTURISTIC.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* Spaziatura per il form */
+    align-items: center;
+    padding: 20px;
+    /* Padding per distanziare il contenuto dal bordo */
+}
+
+.event-info {
+    text-align: center;
+    color: #fff;
+    font-family: 'MedievalSharp', cursive;
+    /* Font gotico */
+}
+
+.event-info h1 {
+    font-size: 2em;
+}
+
+.event-info p {
+    font-size: 1.2em;
+}
+
+#registration-form {
+    width: 80%;
+    /* Larghezza del form ridotta per adattarsi al contenuto */
+}
+
+#registration-form input,
+#registration-form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #fff;
+    /* Bordo per gli elementi del form */
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+#registration-form button {
+    cursor: pointer;
+    background-color: #333;
+    /* Colore di sfondo per il bottone */
+}
+
+.subliminal-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./IMG/subliminal.jpg') no-repeat center center;
+    background-size: cover;
+    display: none;
+}
